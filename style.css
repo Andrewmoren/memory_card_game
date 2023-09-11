@@ -6,3 +6,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body {
+    display: flex;
+}
+
+.card .back-view img {
+    max-width: 45px;
+}
