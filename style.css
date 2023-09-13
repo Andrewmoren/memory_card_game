@@ -9,6 +9,26 @@
 
 body {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #6563ff;
+}
+.wrapper {
+    height: 400px;
+    width: 400px;
+    background: #f8f8f8 ;
+    border-radius: 10px;
+}
+.cards, .card, .view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    height: 100%;
+    width: 100%;
 }
 
 .card .back-view img {
