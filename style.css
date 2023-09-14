@@ -17,6 +17,7 @@ body {
 .wrapper {
     height: 400px;
     width: 400px;
+    padding: 25px;
     background: #f8f8f8 ;
     border-radius: 10px;
 }
