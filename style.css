@@ -36,12 +36,17 @@ body {
 }
 
 .cards .card {
+    cursor: pointer;
+    position: relative;
+    perspective: 800px;
+    transform-style: preserve-3d;
     height: calc(100%/4 - 10px);
     width: calc(100%/4 - 10px);
 }
 .cards .card .view {
     width: 100%;
     height: 100%;
+    position: absolute;
     background: #fff;
     border-radius: 7px;
     box-shadow: 0  3px 10px rgba(0, 0, 0, 0.1);
@@ -53,7 +58,7 @@ body {
 }
 
 .card .back-view {
-    display: none;
+    transform: rotateY(-180deg);
 }
 
 .card .back-view img {
